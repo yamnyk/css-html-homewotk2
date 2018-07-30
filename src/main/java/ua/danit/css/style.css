@@ -35,6 +35,7 @@ body {
 .menu-top-item {
     display: inline-block;
     padding: 22px 40px;
+    border: 1px solid transparent;
 }
 
 .menu-top-item:hover {
@@ -147,7 +148,6 @@ body {
 
 .footer-menu-link:hover {
     color: #2e82a7;
-    font-size: 26px;
     text-decoration: underline;
 }
 
@@ -159,7 +159,6 @@ body {
 
 .footer-link-selected {
     color: #2e82a7;
-    font-size: 26px;
     text-decoration: underline;
 }
 
