@@ -38,8 +38,7 @@ body {
 }
 
 .menu-top-item:hover {
-    background: 100%;
-    background-color: #222f3a;
+    background: #222f3a 100% 100%;
     border: 1px solid #fff;
 }
 
@@ -66,17 +65,16 @@ body {
 }
 
 .left-menu-item {
+    height: 30px;
     padding: 20px 44px;
 }
 
 .left-menu-item:hover {
-    margin: 0 0;
-    background-size: 100%;
     background-color: #dcdcdc;
     padding: 20px 69px;
 }
 
-.left-menu-link:hover {
+.left-menu-item:hover a{
     color: #000;
     font-size: 26px;
 }
